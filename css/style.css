@@ -143,3 +143,9 @@ body {
 #texto-2{
   display: none;
 }
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
