@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Usando o Brackets</title>
+        <meta name="Nome" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+
+<!-- comentário -->
+
+     <div class="container-fluid container-linear">
+         <div class="row container-card">
+             <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./imgs/foto.jpg" alt="Minha foto" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center" id="nome-no-html">
+
+                        </h5>
+                        <hr class="hr">
+                        <p class="text-center" id=cargo-no-html>
+                        </p>
+                        <div class="botoes-card">
+
+                            <button onclick="cliqueNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
+
+                            <button onclick="cliqueNoProjetos()" class="btn ml-1 btn-card" id="btn-projetos">Projetos</button>
+                        </div>
+                        <div class="icons-redes-sociais">
+                           
+                            <div class="links-redes-sociais mt-2">
+                                   <a href="https://www.facebook.com">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/thomas-soares-6791781b/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.instagram.com/thomast.soares/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="col-md-6 col-lg-6 text-body">
+                 <div class="text" id="texto-1">
+                     <h1 class="title-text">Salutos !</h1>
+                     <h4 class="title-subtitle">Bem vindo a esta página</h4>
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                     </p>
+                 </div>
+
+                 <div class="text" id="texto-2">
+                     <h1 class="title-text">Projetos</h1>
+                     <h4 class="title-subtitle">Projetos executados</h4>
+                     <p>
+                       <a target="_blank "href="http://127.0.0.1/~ttsoares/proj.html"> Local</a>
+                     </p>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+     <footer class="container">
+         <div class="row" id="footer-elementos">
+             <div class="col-md-3 col-lg-3">
+                 <h4>Tefefone</h4>
+                 <p>(51)999-999-99</p>
+             </div>
+             <div class="col-md-3 col-lg-3">
+                 <div class="email">
+                     <h4>E-Mail</h4>
+                     <p>foc@longe.net</p>
+                 </div>
+             </div>
+             <div class="col-md-3 col-lg-3">
+                 <h4>Siga</h4>
+
+                 <div class="links-redes-sociais">
+                    <a href="https://www.facebook.com">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/thomas-soares-6791781b/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/thomast.soares/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                 </div>
+             </div>
+         </div>
+         <div class="row text-center mb-2">
+            <div class="col-lg-12 col-mg-12">
+                <smal> 2020 <a href="#">Copyleft</a> </smal>
+            </div>
+         </div>
+     </footer>
+      <script src="./js/index.js"></script>
+    </body>
+</html>
