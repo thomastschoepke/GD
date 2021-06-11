@@ -4,11 +4,33 @@
         <meta charset="UTF-8">
         <title>Usando Atom</title>
         <meta name="Nome" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/bootstrap.css">
+        <!--<link rel="stylesheet" href="./css/bootstrap.css"> -->
     </head>
+
+    <script type="text/javascript">
+         function PopUp(hideOrshow) {
+            if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+            else document.getElementById('ac-wrapper').removeAttribute('style');
+         }
+         window.onload = function () {
+            setTimeout(function () {
+               PopUp('show');
+            }, 5000);
+         }
+      </script>
+
     <body>
 
-    <h1>TESTE</h1>
+      <h1>Aguarde...</h1>
+
+      <div id="ac-wrapper" style='display:none'>
+          <div id="popup">
+              <center>
+                   <h2>Mensagem temporizada !!</h2>
+                  <input type="submit" name="submit" value="Submit" onClick="PopUp('hide')" />
+              </center>
+          </div>
+      </div>
 
     </body>
 </html>
